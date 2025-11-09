@@ -10,7 +10,7 @@ const { initializeSocket } = require('./src/socket/socketHandler');
 
 // Load environment variables
 dotenv.config();
-
+console.log("sdjncjks")
 // Initialize Express app
 const app = express();
 const server = http.createServer(app);
