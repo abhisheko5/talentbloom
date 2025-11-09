@@ -41,6 +41,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/',(req,res)=>{
+  console.log("api is live");
+}
+);
+
 // Routes
 app.use('/api/posts', postRoutes);
 
